@@ -1,0 +1,14 @@
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.AssemblyInfoInputs.cache
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.AssemblyInfo.cs
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.csproj.CoreCompileInputs.cache
+C:\MYAZ203\Sube_2\BankSystem\bin\Debug\net7.0\BankSystem.exe
+C:\MYAZ203\Sube_2\BankSystem\bin\Debug\net7.0\BankSystem.deps.json
+C:\MYAZ203\Sube_2\BankSystem\bin\Debug\net7.0\BankSystem.runtimeconfig.json
+C:\MYAZ203\Sube_2\BankSystem\bin\Debug\net7.0\BankSystem.dll
+C:\MYAZ203\Sube_2\BankSystem\bin\Debug\net7.0\BankSystem.pdb
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.dll
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\refint\BankSystem.dll
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.pdb
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\BankSystem.genruntimeconfig.cache
+C:\MYAZ203\Sube_2\BankSystem\obj\Debug\net7.0\ref\BankSystem.dll
