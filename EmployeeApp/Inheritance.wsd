@@ -1,0 +1,47 @@
+@startuml Inheritance
+title Inheritance
+
+class Employee{
+    id
+    firstName
+    lastName
+    fullName
+    atCreatedDate
+    salary
+    +employee()
+    +employee(firstName, lastName)
+    +employee(id,firstName, lastName)
+    +work()
+}
+
+class Worker
+{
+    area
+    worker()
+    worker(firstName, lastName)
+    cleanAround()
+}
+
+class Student
+{
+    isParttime
+    
+    doİntern()
+}
+
+class Manager
+{
+    position
+    getHire()
+}
+
+class Asistance
+{
+    makeReport
+}
+Worker -up-|> Employee : <<extends>>
+Student -up-|> Employee : <<extends>>
+Manager -up-|> Employee : <<extends>>
+Asistance -up-|> Manager : <<extends>>
+
+@enduml

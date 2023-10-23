@@ -1,0 +1,14 @@
+@startuml
+title Product class
+class Product {
+    -name:string
+    +price:float
+    +generatedDate:datetime
+    +quantity:int
+    +getName():string
+    +setName(value:string):void
+    +getTotalPrice():float
+}
+
+hide empty members
+@enduml

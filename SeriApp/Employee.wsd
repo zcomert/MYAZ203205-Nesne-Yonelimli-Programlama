@@ -1,0 +1,10 @@
+@startuml
+title Employee
+class Employee{
+    -firstName
+    -lastName
+    -salary
+    +setFirstName()
+    +getFirstName()
+}
+@enduml

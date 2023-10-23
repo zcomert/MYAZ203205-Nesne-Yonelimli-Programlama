@@ -1,0 +1,15 @@
+C:\MYAZ205\ProductApp\bin\Debug\net7.0\ProductApp.exe
+C:\MYAZ205\ProductApp\bin\Debug\net7.0\ProductApp.deps.json
+C:\MYAZ205\ProductApp\bin\Debug\net7.0\ProductApp.runtimeconfig.json
+C:\MYAZ205\ProductApp\bin\Debug\net7.0\ProductApp.dll
+C:\MYAZ205\ProductApp\bin\Debug\net7.0\ProductApp.pdb
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.csproj.AssemblyReference.cache
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.AssemblyInfoInputs.cache
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.AssemblyInfo.cs
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.csproj.CoreCompileInputs.cache
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.dll
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\refint\ProductApp.dll
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.pdb
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ProductApp.genruntimeconfig.cache
+C:\MYAZ205\ProductApp\obj\Debug\net7.0\ref\ProductApp.dll

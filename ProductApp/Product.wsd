@@ -1,0 +1,16 @@
+@startuml
+title ProductApp
+
+class Product{
+    id:int 
+    name:string
+    price:decimal 
+    quantity:int
+    nameWithPrice:string
+    atCreatedDate:Datetime
+    Product()
+    Product(name:string, price:decimal)
+    Product(id:int, name:string, price:decimal, quantity:int)
+}
+hide empty members
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+title Series
+class Series{
+    -data:int[]
+}
+@enduml

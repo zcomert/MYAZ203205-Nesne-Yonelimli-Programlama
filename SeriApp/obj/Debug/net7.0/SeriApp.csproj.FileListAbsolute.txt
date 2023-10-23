@@ -1,0 +1,15 @@
+C:\MYAZ205\SeriApp\bin\Debug\net7.0\SeriApp.exe
+C:\MYAZ205\SeriApp\bin\Debug\net7.0\SeriApp.deps.json
+C:\MYAZ205\SeriApp\bin\Debug\net7.0\SeriApp.runtimeconfig.json
+C:\MYAZ205\SeriApp\bin\Debug\net7.0\SeriApp.dll
+C:\MYAZ205\SeriApp\bin\Debug\net7.0\SeriApp.pdb
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.csproj.AssemblyReference.cache
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.AssemblyInfoInputs.cache
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.AssemblyInfo.cs
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.csproj.CoreCompileInputs.cache
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.dll
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\refint\SeriApp.dll
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.pdb
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\SeriApp.genruntimeconfig.cache
+C:\MYAZ205\SeriApp\obj\Debug\net7.0\ref\SeriApp.dll

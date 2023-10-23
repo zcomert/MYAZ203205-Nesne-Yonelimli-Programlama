@@ -1,0 +1,12 @@
+@startuml
+title Car
+class Car {
+    +model:string,
+    +year:int
+    -averageConsume:float
+    -horsePower:float
+    +drive():void
+    +stop():void
+    +
+}
+@enduml
