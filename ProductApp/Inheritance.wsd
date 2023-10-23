@@ -1,0 +1,31 @@
+@startuml Inheritance
+title Inheritance
+
+class Product{
+    id 
+    name
+    price
+    sale()
+}
+
+class Phone{
+    OS
+    size
+    takePhoto()
+}
+
+class Car{
+    numberOfWheels
+    color
+    drive()
+    stop()
+}
+
+class SporCar{
+   openTurbo()
+}
+
+Phone -up-|> Product : <<extends>>
+Car -up-|> Product : <<extends>>
+SporCar -up-|> Car : <<extends>>
+@enduml

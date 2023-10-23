@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MYAZ205\\ProductApp\\ProductApp.csproj": {}
+    "C:\\myaz203205\\ProductApp\\ProductApp.csproj": {}
   },
   "projects": {
-    "C:\\MYAZ205\\ProductApp\\ProductApp.csproj": {
+    "C:\\myaz203205\\ProductApp\\ProductApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ205\\ProductApp\\ProductApp.csproj",
+        "projectUniqueName": "C:\\myaz203205\\ProductApp\\ProductApp.csproj",
         "projectName": "ProductApp",
-        "projectPath": "C:\\MYAZ205\\ProductApp\\ProductApp.csproj",
+        "projectPath": "C:\\myaz203205\\ProductApp\\ProductApp.csproj",
         "packagesPath": "C:\\Users\\UZEM\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ205\\ProductApp\\obj\\",
+        "outputPath": "C:\\myaz203205\\ProductApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UZEM\\AppData\\Roaming\\NuGet\\NuGet.Config",

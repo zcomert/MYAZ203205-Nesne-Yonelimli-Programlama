@@ -1,3 +1,6 @@
+namespace ProductApp.Models;
+
+
 public class Product
 {
     public int Id { get; set; }
@@ -33,5 +36,8 @@ public class Product
         Quantity = quantity;
     }
 
-
+    public virtual void Sale()
+    {
+        System.Console.WriteLine("The product has been sold.");
+    }
 }
