@@ -1,0 +1,14 @@
+C:\myaz203205\Practice\Week4\TodoApp\bin\Debug\net7.0\TodoApp.exe
+C:\myaz203205\Practice\Week4\TodoApp\bin\Debug\net7.0\TodoApp.deps.json
+C:\myaz203205\Practice\Week4\TodoApp\bin\Debug\net7.0\TodoApp.runtimeconfig.json
+C:\myaz203205\Practice\Week4\TodoApp\bin\Debug\net7.0\TodoApp.dll
+C:\myaz203205\Practice\Week4\TodoApp\bin\Debug\net7.0\TodoApp.pdb
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.AssemblyInfo.cs
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.dll
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\refint\TodoApp.dll
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.pdb
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\TodoApp.genruntimeconfig.cache
+C:\myaz203205\Practice\Week4\TodoApp\obj\Debug\net7.0\ref\TodoApp.dll

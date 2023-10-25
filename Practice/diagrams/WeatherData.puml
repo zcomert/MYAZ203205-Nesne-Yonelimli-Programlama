@@ -1,0 +1,11 @@
+@startuml WeatherData
+class WeatherData{
+    + Temperature: double
+    + Humidity: double
+    + WindSpeed: double
+    + City: string
+    + Date: DateTime
+    + WeatherDescription: string
+    + WeatherData(city: string, temperature: double, windspeed: double, humidity: double)
+}
+@enduml

@@ -1,0 +1,13 @@
+@startuml TodoItem
+class TodoItem
+{
+    + Id: int
+    + Title: string
+    + Description: string
+    + DueDate: DateTime
+    + IsComplete: bool
+    + ToString(): override
+    + TodoItem()
+    + TodoItem(int, string, string, DateTime)
+}
+@enduml

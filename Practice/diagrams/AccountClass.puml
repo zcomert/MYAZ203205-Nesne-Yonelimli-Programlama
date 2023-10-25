@@ -1,0 +1,15 @@
+@startuml AccountClass
+class Account{
+    +Activities: string[]
+    +Balance: double
+    +FirstName: string
+    +LastName: string
+    +FullName: string
+    +AccountDate: string
+
+    +CheckAccount(): void
+    +Deposit(float): void
+    +Withdraw(float): void
+    +AccountActivities(): void
+}
+@enduml
