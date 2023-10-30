@@ -1,15 +1,16 @@
 ﻿using HeapApp.Models;
 
-Heap heap1 = new MaxHeap();
-var list = new List<int>() { 23, 44, 06, 34, 35, 61, 19 };
-foreach (var item in list)
+Heap heap = new MaxHeap();
+heap.Insert(23);
+heap.Insert(55);
+heap.Insert(8);
+heap.Insert(12);
+heap.Insert(44);
+heap.Insert(41);
+
+var number=heap.Count;
+for (int i = 1; i <= number; i++)
 {
-    heap1.Insert(item);
+    System.Console.WriteLine(heap.Extract());
 }
-int i=0;
-do
-{
-    Console
-    .WriteLine($"{heap1.Extract()} - {heap1.Count}");
-    i+=1;
-} while (i<list.Count);
+

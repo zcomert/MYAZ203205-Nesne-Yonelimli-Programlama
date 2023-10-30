@@ -1,0 +1,15 @@
+C:\myaz203205\HeapApp\bin\Debug\net7.0\HeapApp.exe
+C:\myaz203205\HeapApp\bin\Debug\net7.0\HeapApp.deps.json
+C:\myaz203205\HeapApp\bin\Debug\net7.0\HeapApp.runtimeconfig.json
+C:\myaz203205\HeapApp\bin\Debug\net7.0\HeapApp.dll
+C:\myaz203205\HeapApp\bin\Debug\net7.0\HeapApp.pdb
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.csproj.AssemblyReference.cache
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.AssemblyInfoInputs.cache
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.AssemblyInfo.cs
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.csproj.CoreCompileInputs.cache
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.dll
+C:\myaz203205\HeapApp\obj\Debug\net7.0\refint\HeapApp.dll
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.pdb
+C:\myaz203205\HeapApp\obj\Debug\net7.0\HeapApp.genruntimeconfig.cache
+C:\myaz203205\HeapApp\obj\Debug\net7.0\ref\HeapApp.dll

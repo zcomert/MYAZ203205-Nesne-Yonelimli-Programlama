@@ -1,17 +1,20 @@
 namespace HeapApp.Models;
-public abstract class Heap 
+
+public abstract class Heap
 {
-    public int Count => list.Count;
-    protected List<int> list;
-    public Heap()
+    protected Heap()
     {
-        list = new List<int>();
+        Data = new List<int>();
     }
+
+    protected List<int> Data { get; set; }
+    public int Count=>Data.Count; 
 
     public void Insert(int value)
     {
-        list.Add(value);
+        Data.Add(value);
     }
+
 
     public abstract int Extract();
 }
