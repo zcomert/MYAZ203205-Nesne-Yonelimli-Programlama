@@ -1,0 +1,23 @@
+@startuml HeapApp
+title HeapApp
+
+abstract class Heap
+{
+    #list:List<int>
+    +count:int
+    +add():void
+    +{abstract}extract():int
+} 
+
+class MinHeap extends Heap
+{
+    +extract():int
+}
+
+class MaxHeap extends Heap
+{
+   +extract():int
+}
+hide empty members
+
+@enduml
