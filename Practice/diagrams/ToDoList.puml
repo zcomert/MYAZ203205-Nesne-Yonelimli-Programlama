@@ -1,0 +1,15 @@
+@startuml ToDoList
+class TodoList
+{
+    - Items: List<TodoItem>
+    + AddItem(TodoItem): void
+    + RemoveItem(int): void
+    + MarkComplete(int): void
+    + GetDueItems(DateTime): List<TodoItem>
+    + GetItems(): List<TodoItem>
+    + GetOneItem(int): TodoItem
+    + DisplayTask(): void
+    + TodoList()
+    + TodoList(List<TodoItem>)
+}
+@enduml

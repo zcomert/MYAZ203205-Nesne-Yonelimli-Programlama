@@ -1,0 +1,26 @@
+@startuml TodoInheritance
+class TodoItem{}
+
+class GroceriesItem{
+    + Quentity: int
+    + GroceriesItem(int)
+    + ToString(): override
+}
+
+class ImportantItem {
+    + Priority: string
+    + ToString(): override
+    + PriorityLevel(int): void
+    + ImportantItem(int)
+}
+
+class UrgentItem {
+    + IsUrgent: bool
+    + UrgentItem()
+    + UrgentItem(bool)
+}
+
+GroceriesItem -up-|> TodoItem : <<extends>>
+ImportantItem -up-|> TodoItem : <<extends>>
+UrgentItem -up-|> ImportantItem : <<extends>>
+@enduml

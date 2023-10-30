@@ -1,0 +1,7 @@
+@startuml WeatherForecast
+class WeatherForecast {
+    + AutoDescription(): string
+    + GetWeatherForecast(): void
+    + SetWeather(city: string, temperature: double, windspeed: double, humidity: double): WeatherData
+}
+@enduml
