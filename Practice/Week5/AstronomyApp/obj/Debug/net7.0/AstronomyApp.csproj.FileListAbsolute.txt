@@ -1,0 +1,14 @@
+C:\myaz203205\Practice\Week5\AstronomyApp\bin\Debug\net7.0\AstronomyApp.exe
+C:\myaz203205\Practice\Week5\AstronomyApp\bin\Debug\net7.0\AstronomyApp.deps.json
+C:\myaz203205\Practice\Week5\AstronomyApp\bin\Debug\net7.0\AstronomyApp.runtimeconfig.json
+C:\myaz203205\Practice\Week5\AstronomyApp\bin\Debug\net7.0\AstronomyApp.dll
+C:\myaz203205\Practice\Week5\AstronomyApp\bin\Debug\net7.0\AstronomyApp.pdb
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.AssemblyInfo.cs
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.dll
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\refint\AstronomyApp.dll
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.pdb
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\AstronomyApp.genruntimeconfig.cache
+C:\myaz203205\Practice\Week5\AstronomyApp\obj\Debug\net7.0\ref\AstronomyApp.dll
