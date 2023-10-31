@@ -6,7 +6,7 @@ class Rocket {
     + Land(): void
     + Launch(): void
     + TravelTo(celestialBody: CelestialBody): double
-    # CalculateDeltaV(): double
+    # CalculateDeltaV(Gravity: double): double
     # CalculateTravelDistance(deltaV: double): double
 }
 

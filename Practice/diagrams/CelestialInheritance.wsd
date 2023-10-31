@@ -4,13 +4,13 @@ abstract class CelestialBody{}
 class Planet {
     + Distance: double
     + Planet(Name: string, Mass: double, Radius: double, Gravity: double, Distance: double)
-    + Describe: void
+    + Describe(): void
 }
 
 class Moon {
     + ParentPlanet: Planet
     + Moon(Name: string, Mass: double, Radius: double, Gravity: double, ParentPlanet: Planet)
-    + Describe:  void
+    + Describe():  void
 }
 
 Planet -up-|> CelestialBody
