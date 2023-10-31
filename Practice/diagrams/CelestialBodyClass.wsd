@@ -1,0 +1,10 @@
+@startuml CelestialBody
+abstract class CelestialBody {
+    + Name: string
+    + Mass: double
+    + Radius: double
+    + Gravity: double
+    + CelestialBody(Name: string, Mass: double, Radius: double)
+    + {abstract} Describe(): void
+}
+@enduml

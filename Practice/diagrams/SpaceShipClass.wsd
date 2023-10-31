@@ -1,0 +1,16 @@
+@startuml SpaceShip
+abstract class SpaceShip{
+    + Name: string
+    + Mass: double
+    + Fuel: double
+    + CrewCapacity: int
+    + Thrust: double
+    + SpecificImpulse: double
+    + SpaceShip(Name: string, Mass: double, Fuel: double, CrewCapacity: int, Thrust: double, SpecificImpulse: double)
+    + {abstract} Launch(): void
+    + {abstract} Land(): void
+    + TravelTo(celestialBody: CelestialBody): void
+    # CalculateDeltaV(): double
+    # CalculateTravelDistance(deltaV: double): double
+}
+@enduml

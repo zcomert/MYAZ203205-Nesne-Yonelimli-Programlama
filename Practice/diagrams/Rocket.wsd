@@ -1,0 +1,16 @@
+@startuml RocketClass
+abstract class SpaceShip {}
+
+class Rocket {
+    + Rocket((Name: string, Mass: double, Fuel: double, CrewCapacity: int, Thrust: double, SpecificImpulse: double)
+    + Land(): void
+    + Launch(): void
+    + TravelTo(celestialBody: CelestialBody): double
+    # CalculateDeltaV(): double
+    # CalculateTravelDistance(deltaV: double): double
+}
+
+Rocket -up-|> SpaceShip
+hide empty fields
+hide empty methods
+@enduml

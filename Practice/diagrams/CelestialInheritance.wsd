@@ -1,0 +1,21 @@
+@startuml CelestialInheritance
+abstract class CelestialBody{}
+
+class Planet {
+    + Distance: double
+    + Planet(Name: string, Mass: double, Radius: double, Gravity: double, Distance: double)
+    + Describe: void
+}
+
+class Moon {
+    + ParentPlanet: Planet
+    + Moon(Name: string, Mass: double, Radius: double, Gravity: double, ParentPlanet: Planet)
+    + Describe:  void
+}
+
+Planet -up-|> CelestialBody
+Moon -up-|> CelestialBody
+
+hide empty fields
+hide empty methods
+@enduml
