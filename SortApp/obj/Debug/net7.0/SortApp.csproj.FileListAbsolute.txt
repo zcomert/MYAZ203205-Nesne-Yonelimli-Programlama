@@ -1,0 +1,15 @@
+C:\myaz203205\SortApp\bin\Debug\net7.0\SortApp.exe
+C:\myaz203205\SortApp\bin\Debug\net7.0\SortApp.deps.json
+C:\myaz203205\SortApp\bin\Debug\net7.0\SortApp.runtimeconfig.json
+C:\myaz203205\SortApp\bin\Debug\net7.0\SortApp.dll
+C:\myaz203205\SortApp\bin\Debug\net7.0\SortApp.pdb
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.csproj.AssemblyReference.cache
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.AssemblyInfoInputs.cache
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.AssemblyInfo.cs
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.csproj.CoreCompileInputs.cache
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.dll
+C:\myaz203205\SortApp\obj\Debug\net7.0\refint\SortApp.dll
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.pdb
+C:\myaz203205\SortApp\obj\Debug\net7.0\SortApp.genruntimeconfig.cache
+C:\myaz203205\SortApp\obj\Debug\net7.0\ref\SortApp.dll
