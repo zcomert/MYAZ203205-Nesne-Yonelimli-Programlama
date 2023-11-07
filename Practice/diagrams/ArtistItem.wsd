@@ -1,0 +1,12 @@
+@startuml ArtistItem
+class Artists {
+    + Id: int
+    + FirstName: string
+    + LastName: string
+    + Genre: string
+    
+    + Artists()
+    + Artists(id, firstName, lastName, genre)
+}
+
+@enduml

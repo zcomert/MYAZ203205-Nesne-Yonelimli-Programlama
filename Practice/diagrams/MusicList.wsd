@@ -1,0 +1,18 @@
+@startuml MusicList
+class MusicList {
+    - MusicItems: List<Song>
+    + MusicList()
+    + MusicList(musicList)
+    + Add(song: Song): void
+    + Remove(id: int): Song
+    + Update(id: int, song: Song)
+    + Sort(): List<Song>
+    + Display(): void
+}
+
+MusicList -up-|> IEnumerable
+
+hide empty fields
+hide empty methods
+
+@enduml

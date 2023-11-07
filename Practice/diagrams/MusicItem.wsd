@@ -1,0 +1,19 @@
+@startuml SongItem
+
+class Song {
+    + Id: int
+    + Title: string
+    + Artist: Artists
+    + Album: Albums
+    + Genre: string
+    + Duration: float
+    + Song()
+    + Song(id, title, album, genre, duration)
+}
+
+Song -up-|> IComparable 
+Song -up-|> IFormattable 
+
+hide empty fields
+hide empty methods
+@enduml

@@ -1,0 +1,11 @@
+@startuml AlbumItem
+class Albums{
+    + Id: int
+    + Title: string
+    + ReleaseYear: DateTime
+    + Genre: string
+
+    + Albums()
+    + Albums(title, releaseYear)
+}
+@enduml
