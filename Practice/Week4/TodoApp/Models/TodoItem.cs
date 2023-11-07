@@ -1,4 +1,4 @@
-class TodoItem
+public class TodoItem
 {
     // Property
     public int Id { get; set; }

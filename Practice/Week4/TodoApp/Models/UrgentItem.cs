@@ -1,4 +1,4 @@
-class UrgentItem : ImportantItem
+public class UrgentItem : ImportantItem
 {
     public bool IsUrgent { get; set; }
 

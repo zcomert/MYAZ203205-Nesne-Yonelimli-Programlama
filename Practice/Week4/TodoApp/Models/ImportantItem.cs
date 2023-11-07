@@ -1,5 +1,5 @@
 
-class ImportantItem : TodoItem
+public class ImportantItem : TodoItem
 {
     public string Priority { get; private set; }
 

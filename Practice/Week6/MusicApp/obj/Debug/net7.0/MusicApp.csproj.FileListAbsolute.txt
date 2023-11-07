@@ -1,0 +1,14 @@
+C:\myaz203205\Practice\Week6\MusicApp\bin\Debug\net7.0\MusicApp.exe
+C:\myaz203205\Practice\Week6\MusicApp\bin\Debug\net7.0\MusicApp.deps.json
+C:\myaz203205\Practice\Week6\MusicApp\bin\Debug\net7.0\MusicApp.runtimeconfig.json
+C:\myaz203205\Practice\Week6\MusicApp\bin\Debug\net7.0\MusicApp.dll
+C:\myaz203205\Practice\Week6\MusicApp\bin\Debug\net7.0\MusicApp.pdb
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.AssemblyInfo.cs
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.dll
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\refint\MusicApp.dll
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.pdb
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\MusicApp.genruntimeconfig.cache
+C:\myaz203205\Practice\Week6\MusicApp\obj\Debug\net7.0\ref\MusicApp.dll

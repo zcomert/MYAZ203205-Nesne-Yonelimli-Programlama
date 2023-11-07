@@ -1,4 +1,4 @@
-class GroceriesItem : TodoItem
+public class GroceriesItem : TodoItem
 {
     public int Quentity { get; set; }
 
