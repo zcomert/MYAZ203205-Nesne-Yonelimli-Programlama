@@ -1,0 +1,17 @@
+@startuml LibraryList
+interface IEnumerable {}
+class Library {
+    - LibraryItems: List<LibraryItem>
+    + CreateBook(item: LibarrayItem): void
+    + GiveBook(id: int): void
+    + TakeBook(id: int): void
+    + GetAllBooks(): List<LibraryItem>
+    + GetAvailableBooks(): List<LibraryItem>
+    + DeleteBook(id: int): void
+}
+
+hide empty fields
+hide empty methods
+
+Library -up-|> IEnumerable
+@enduml

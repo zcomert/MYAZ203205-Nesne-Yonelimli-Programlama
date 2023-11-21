@@ -1,0 +1,15 @@
+@startuml Library
+interface IBooks {}
+
+abstract class LibraryItem {
+    + LibraryItem(id, title, author, publishYear)
+    + Borrow(): void
+    + Return(): void
+    + ToString(): string
+}
+
+hide empty fields
+hide empty methods
+
+LibraryItem -up-|> IBooks
+@enduml

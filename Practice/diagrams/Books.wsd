@@ -1,0 +1,16 @@
+@startuml Books
+interface IComparable{}
+interface IBooks {
+    + Id: int
+    + Title: string
+    + Author: Authors
+    + PublishYear: DateTime
+    + IsAvailable: bool
+    + SetAvailability(available: bool): void
+}
+
+hide empty fields
+hide empty methods
+
+IBooks -up-|> IComparable
+@enduml

@@ -1,0 +1,9 @@
+@startuml Authors
+class Authors {
+    + Id: int
+    + FirstName: string
+    + LastName: string
+    + FullName: string
+    + ToString(): string
+}
+@enduml
