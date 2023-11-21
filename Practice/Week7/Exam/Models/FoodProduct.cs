@@ -23,7 +23,12 @@ public class FoodProduct : Product
         set { storageTemperature = value; }
     }
 
-    public FoodProduct(int id, string productName, double price, DateTime expirationDate, bool ısPerishable, double storageTemperature)
+    public FoodProduct(int id,
+    string productName,
+    double price,
+    DateTime expirationDate,
+    bool ısPerishable,
+    double storageTemperature)
     : base(id, productName, price)
     {
         ExpirationDate = expirationDate;

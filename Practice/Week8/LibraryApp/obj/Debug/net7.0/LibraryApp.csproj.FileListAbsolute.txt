@@ -1,0 +1,14 @@
+C:\myaz203205\Practice\Week8\LibraryApp\bin\Debug\net7.0\LibraryApp.exe
+C:\myaz203205\Practice\Week8\LibraryApp\bin\Debug\net7.0\LibraryApp.deps.json
+C:\myaz203205\Practice\Week8\LibraryApp\bin\Debug\net7.0\LibraryApp.runtimeconfig.json
+C:\myaz203205\Practice\Week8\LibraryApp\bin\Debug\net7.0\LibraryApp.dll
+C:\myaz203205\Practice\Week8\LibraryApp\bin\Debug\net7.0\LibraryApp.pdb
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.AssemblyInfo.cs
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.dll
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\refint\LibraryApp.dll
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.pdb
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\LibraryApp.genruntimeconfig.cache
+C:\myaz203205\Practice\Week8\LibraryApp\obj\Debug\net7.0\ref\LibraryApp.dll
