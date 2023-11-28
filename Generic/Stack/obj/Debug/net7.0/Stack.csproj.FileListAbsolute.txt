@@ -1,0 +1,12 @@
+C:\myaz203205\Generic\Stack\bin\Debug\net7.0\Stack.deps.json
+C:\myaz203205\Generic\Stack\bin\Debug\net7.0\Stack.dll
+C:\myaz203205\Generic\Stack\bin\Debug\net7.0\Stack.pdb
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.csproj.AssemblyReference.cache
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.AssemblyInfoInputs.cache
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.AssemblyInfo.cs
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.csproj.CoreCompileInputs.cache
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.dll
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\refint\Stack.dll
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\Stack.pdb
+C:\myaz203205\Generic\Stack\obj\Debug\net7.0\ref\Stack.dll
