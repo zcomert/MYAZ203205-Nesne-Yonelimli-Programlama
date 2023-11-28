@@ -1,0 +1,12 @@
+C:\myaz203205\StaticApp\MathLib\bin\Debug\net7.0\MathLib.deps.json
+C:\myaz203205\StaticApp\MathLib\bin\Debug\net7.0\MathLib.dll
+C:\myaz203205\StaticApp\MathLib\bin\Debug\net7.0\MathLib.pdb
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.csproj.AssemblyReference.cache
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.AssemblyInfoInputs.cache
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.AssemblyInfo.cs
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.csproj.CoreCompileInputs.cache
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.dll
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\refint\MathLib.dll
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\MathLib.pdb
+C:\myaz203205\StaticApp\MathLib\obj\Debug\net7.0\ref\MathLib.dll

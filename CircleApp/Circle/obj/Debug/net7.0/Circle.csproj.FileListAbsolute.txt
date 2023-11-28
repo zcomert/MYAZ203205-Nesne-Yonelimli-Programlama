@@ -1,0 +1,12 @@
+C:\myaz203205\CircleApp\Circle\bin\Debug\net7.0\Circle.deps.json
+C:\myaz203205\CircleApp\Circle\bin\Debug\net7.0\Circle.dll
+C:\myaz203205\CircleApp\Circle\bin\Debug\net7.0\Circle.pdb
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.csproj.AssemblyReference.cache
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.AssemblyInfoInputs.cache
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.AssemblyInfo.cs
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.csproj.CoreCompileInputs.cache
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.dll
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\refint\Circle.dll
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\Circle.pdb
+C:\myaz203205\CircleApp\Circle\obj\Debug\net7.0\ref\Circle.dll
