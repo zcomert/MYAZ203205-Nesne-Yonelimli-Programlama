@@ -1,0 +1,36 @@
+@startuml Queue
+title Generic Queue
+interface IQueue<T>{
+    +enQueue(item:T):void
+    +deQueue():T
+    +peek():T
+}
+
+class ListQueue<T>
+{
+    -collection:List<T>
+    +enQueue(item:T):void
+    +deQueue():T
+    +peek():T
+}
+class LinkedListQueue<T>
+{
+    -collection:List<T>
+    +enQueue(item:T):void
+    +deQueue():T
+    +peek():T
+}
+
+class Queue<T>
+{
+    -collection:IQueue<T>
+    +enQueue(item:T):void
+    +deQueue():T
+    +peek():T
+}
+
+ListQueue -up-|> IQueue : "<<implements>>"
+LinkedListQueue -up-|> IQueue : "<<implements>>"
+Queue -up-|> IQueue : "<<implements>>"
+hide empty members
+@enduml

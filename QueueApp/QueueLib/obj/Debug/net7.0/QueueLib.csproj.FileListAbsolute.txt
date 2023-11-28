@@ -1,0 +1,12 @@
+C:\myaz203205\QueueApp\QueueLib\bin\Debug\net7.0\QueueLib.deps.json
+C:\myaz203205\QueueApp\QueueLib\bin\Debug\net7.0\QueueLib.dll
+C:\myaz203205\QueueApp\QueueLib\bin\Debug\net7.0\QueueLib.pdb
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.csproj.AssemblyReference.cache
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.AssemblyInfoInputs.cache
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.AssemblyInfo.cs
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.csproj.CoreCompileInputs.cache
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.dll
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\refint\QueueLib.dll
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\QueueLib.pdb
+C:\myaz203205\QueueApp\QueueLib\obj\Debug\net7.0\ref\QueueLib.dll
