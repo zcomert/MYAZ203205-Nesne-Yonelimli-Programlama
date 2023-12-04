@@ -1,0 +1,11 @@
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\bin\Debug\net7.0\BlogEntities.deps.json
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\bin\Debug\net7.0\BlogEntities.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\bin\Debug\net7.0\BlogEntities.pdb
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\BlogEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\BlogEntities.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\BlogEntities.AssemblyInfo.cs
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\BlogEntities.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\BlogEntities.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\refint\BlogEntities.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\BlogEntities.pdb
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogEntities\obj\Debug\net7.0\ref\BlogEntities.dll

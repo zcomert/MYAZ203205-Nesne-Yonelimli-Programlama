@@ -1,0 +1,15 @@
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\bin\Debug\net7.0\BlogRepositories.deps.json
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\bin\Debug\net7.0\BlogRepositories.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\bin\Debug\net7.0\BlogRepositories.pdb
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\bin\Debug\net7.0\BlogEntities.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\bin\Debug\net7.0\BlogEntities.pdb
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.csproj.AssemblyReference.cache
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.AssemblyInfo.cs
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.csproj.CopyComplete
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\refint\BlogRepositories.dll
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\BlogRepositories.pdb
+C:\myaz203205\Practice\Week9\BlogPlatform\BlogRepositories\obj\Debug\net7.0\ref\BlogRepositories.dll
