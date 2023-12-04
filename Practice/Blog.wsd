@@ -1,0 +1,51 @@
+@startuml Blog
+class Posts{
+    + PostId: int
+    + Title: string
+    + Content: string
+    + DatePosted: DateTime
+    + Author: Users
+    + CommentList: List<Comments>
+}
+
+class Comments{
+    + CommentId: int
+    + Content: string
+    + DatePosted: DateTime
+    + Author: Users
+}
+
+class Users{
+    + UserId: int
+    + Username: string
+    + Email: string
+}
+
+class PostsRepository{
+    - {static} posts: List<Posts>
+    + {static} PostRepository()
+    + {static} AddPost(post: Posts): void
+    + {static} AddComment(postId: int, comment: Comments): void
+    + {static} GetAllPosts(): List<Posts>
+    + {static} GetAllPostsByAuthor(userId: int): void
+    + {static} GetOnePostByAuthor(postId: int, userId: int): void
+}
+
+class PostsContoller {
+    + AddPost(post: Posts): void
+    + AddComment(postId: int, comment: Comments): void
+    + GetAllPosts(): List<Posts>
+    + GetAllPostsByAuthor(userId: int): void
+    + GetOnePostByAuthor(postId: int, userId: int): void
+}
+
+hide empty fields
+hide empty methods
+
+PostsRepository -up- PostsContoller
+ControllerBase -left- PostsContoller
+Posts -up- PostsRepository
+Comments -left- Posts
+Users -right- Posts
+
+@enduml
