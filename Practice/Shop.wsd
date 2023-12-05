@@ -1,0 +1,63 @@
+@startuml Shop
+title ShoppingPlatform
+
+class Products{
+    + Id: int
+    + Name: string
+    + Quantity: int
+    + Price: decimal
+}
+
+class Users{
+    + Id: int
+    + Email: string
+    + Firstname: string
+    + Lastname: string
+    + Fullname: string
+    + CreatedDate: DateTime
+}
+
+class Histories{
+    + Id: int
+    + UserId: int
+    + PurchaseDate: DateTime
+    + PurchaseList: List<Products>
+}
+
+interface IRepository<T> {
+    + GetAll(): List<T>
+    + GetOne(id: int): T
+    + Post(item: T): void
+    + Update(id: int, item: T): void
+    + Delete(): void
+    + DeleteOne(id: int): void
+}
+
+class ProductsRepository{
+    - products: List<Products>
+}
+
+class HistoriesRepository{
+    - histories: List<Histories>
+}
+
+class UsersRepository{
+    - users: List<Users>
+}
+
+IRepository -down-> ProductsRepository
+IRepository -down-> HistoriesRepository
+IRepository -down-> UsersRepository
+
+Products -up- ProductsRepository
+Histories -up- HistoriesRepository
+Users -up- UsersRepository
+
+ProductsController - ProductsRepository
+HistoriesController - HistoriesRepository
+UsersController - UsersRepository
+
+hide empty fields
+hide empty methods
+
+@enduml
