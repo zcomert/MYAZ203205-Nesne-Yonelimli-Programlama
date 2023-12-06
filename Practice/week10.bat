@@ -16,4 +16,20 @@ dotnet add ShopApi reference ShopRepositories
 dotnet add ShopApi reference ShopEntities
 dotnet add ShopRepositories reference ShopEntities
 
+cd ShopApi
+del "WeatherForecast.cs"
+cd Controllers
+del "WeatherForecastController.cs"
+
+cd ..
+cd ..
+cd ShopEntities
+mkdir Models
+
+cd ..
+cd ShopRepositories
+mkdir Repositories
+
+cd ..
+
 code .

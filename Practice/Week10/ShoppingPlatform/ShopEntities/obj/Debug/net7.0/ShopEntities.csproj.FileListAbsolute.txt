@@ -1,0 +1,11 @@
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\bin\Debug\net7.0\ShopEntities.deps.json
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\bin\Debug\net7.0\ShopEntities.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\bin\Debug\net7.0\ShopEntities.pdb
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ShopEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ShopEntities.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ShopEntities.AssemblyInfo.cs
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ShopEntities.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ShopEntities.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\refint\ShopEntities.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ShopEntities.pdb
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopEntities\obj\Debug\net7.0\ref\ShopEntities.dll

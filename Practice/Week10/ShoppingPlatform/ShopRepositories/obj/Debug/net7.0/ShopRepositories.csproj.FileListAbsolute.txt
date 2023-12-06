@@ -1,0 +1,15 @@
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\bin\Debug\net7.0\ShopRepositories.deps.json
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\bin\Debug\net7.0\ShopRepositories.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\bin\Debug\net7.0\ShopRepositories.pdb
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\bin\Debug\net7.0\ShopEntities.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\bin\Debug\net7.0\ShopEntities.pdb
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.csproj.AssemblyReference.cache
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.AssemblyInfoInputs.cache
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.AssemblyInfo.cs
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.csproj.CoreCompileInputs.cache
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.csproj.CopyComplete
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\refint\ShopRepositories.dll
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ShopRepositories.pdb
+C:\myaz203205\Practice\Week10\ShoppingPlatform\ShopRepositories\obj\Debug\net7.0\ref\ShopRepositories.dll
