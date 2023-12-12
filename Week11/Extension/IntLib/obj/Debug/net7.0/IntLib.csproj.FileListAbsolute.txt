@@ -1,0 +1,12 @@
+C:\myaz203205\Week11\Extension\IntLib\bin\Debug\net7.0\IntLib.deps.json
+C:\myaz203205\Week11\Extension\IntLib\bin\Debug\net7.0\IntLib.dll
+C:\myaz203205\Week11\Extension\IntLib\bin\Debug\net7.0\IntLib.pdb
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.csproj.AssemblyReference.cache
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.AssemblyInfoInputs.cache
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.AssemblyInfo.cs
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.csproj.CoreCompileInputs.cache
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.dll
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\refint\IntLib.dll
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\IntLib.pdb
+C:\myaz203205\Week11\Extension\IntLib\obj\Debug\net7.0\ref\IntLib.dll

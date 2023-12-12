@@ -9,7 +9,7 @@ namespace StringApi.Controllers;
 public class StringController : ControllerBase
 {
     [HttpPost]
-    public IActionResult NumberOfSpace(String input)
+    public IActionResult NumberOfSpace([FromBody] String input)
     {
         // StringOperation so = new StringOperation();
         // var result = StringOperation.NumberOfSpaces(input);
