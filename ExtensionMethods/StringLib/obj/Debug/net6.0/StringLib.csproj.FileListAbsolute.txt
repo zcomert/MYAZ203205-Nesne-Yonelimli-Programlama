@@ -1,0 +1,12 @@
+C:\myaz203205\ExtensionMethods\StringLib\bin\Debug\net6.0\StringLib.deps.json
+C:\myaz203205\ExtensionMethods\StringLib\bin\Debug\net6.0\StringLib.dll
+C:\myaz203205\ExtensionMethods\StringLib\bin\Debug\net6.0\StringLib.pdb
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.csproj.AssemblyReference.cache
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.AssemblyInfoInputs.cache
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.AssemblyInfo.cs
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.csproj.CoreCompileInputs.cache
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.dll
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\refint\StringLib.dll
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\StringLib.pdb
+C:\myaz203205\ExtensionMethods\StringLib\obj\Debug\net6.0\ref\StringLib.dll
