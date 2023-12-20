@@ -1,5 +1,7 @@
-using Entities;
+using Microsoft.EntityFrameworkCore;
 using Repositories;
+using Repositories.Services;
+using RestaurantApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +12,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<UserRepository>();
-builder.Services.AddSingleton<List<User>>();
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<ItemRepository>();
+
+// builder.Services.AddSingleton<UserRepository>();
+// builder.Services.AddSingleton<List<User>>();
+
+builder.Services.AddDbContext<RepositoryDbContext>(options =>
+{
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqliteConnectionString"),
+    prj => prj.MigrationsAssembly("RestaurantApi"));
+});
 
 var app = builder.Build();
 
@@ -21,6 +32,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Global Exception Handler
+app.ConfigureExceptionHandler();
 
 app.UseHttpsRedirection();
 

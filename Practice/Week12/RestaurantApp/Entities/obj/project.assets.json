@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\myaz203205\\Practice\\Week12\\RestaurantApp\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Practice\\Week12\\RestaurantApp\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\myaz203205\\Practice\\Week12\\RestaurantApp\\Entities\\Entities.csproj",
+      "projectPath": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Practice\\Week12\\RestaurantApp\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "C:\\myaz203205\\Practice\\Week12\\RestaurantApp\\Entities\\obj\\",
+      "outputPath": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Practice\\Week12\\RestaurantApp\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",

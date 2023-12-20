@@ -1,3 +1,4 @@
+using AutoMapper;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Repositories;
@@ -31,12 +32,16 @@ public class ItemsController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post(Items item)
+    public IActionResult Post(string name, string description, decimal price, int categoryId)
     {
-        if (item is null)
-            return BadRequest();
-        repository.Post(item);
-        return Created("Item added!", item);
+        repository.Post(new Items()
+        {
+            Name = name,
+            Description = description,
+            Price = price,
+            CategoryId = categoryId
+        });
+        return Ok("Item added!");
     }
 
     [HttpDelete("{id:int}")]

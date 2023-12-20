@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "RVfEjcEtflYfs19h0usyzYsdYEeUCEeLDp9oQouAQJypUYLoED8EyNQFcBCnkQAJbs7UJPBSyzpPrN8guTPFBA==",
+  "dgSpecHash": "xQsvqTax9Zu8ddU7Z/B/GvfO8LHXm+Q/zUcVBnZPF7frmEvdDkhRkTZSq/lhItMrhezHzPRI63KhdWK6mTdoSQ==",
   "success": true,
-  "projectFilePath": "C:\\myaz203205\\Practice\\Week12\\RestaurantApp\\RestaurantApi\\RestaurantApi.csproj",
+  "projectFilePath": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Practice\\Week12\\RestaurantApp\\RestaurantApi\\RestaurantApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

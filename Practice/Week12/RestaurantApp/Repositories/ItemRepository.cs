@@ -1,35 +1,38 @@
 using Entities;
 using Repositories.Interfaces;
+using Repositories.Services;
 
 namespace Repositories;
 
 public class ItemRepository : IRepository<Items>
 {
-    private List<Items> items;
+    private RepositoryDbContext dbContext;
 
-    public ItemRepository(List<Items> items)
+    public ItemRepository(RepositoryDbContext dbContext)
     {
-        this.items = items;
+        this.dbContext = dbContext;
     }
 
     public void Delete(int id)
     {
         var item = GetOne(id);
-        items.Remove(item);
+        dbContext.Items.Remove(item);
+        dbContext.SaveChanges();
     }
 
     public Items GetOne(int id)
     {
-        return items.SingleOrDefault(cat => cat.Id.Equals(id));
+        return dbContext.Items.SingleOrDefault(cat => cat.Id.Equals(id));
     }
 
     public List<Items> GetAll()
     {
-        return items;
+        return dbContext.Items.ToList();
     }
 
     public void Post(Items item)
     {
-        items.Add(item);
+        dbContext.Items.Add(item);
+        dbContext.SaveChanges();
     }
 }

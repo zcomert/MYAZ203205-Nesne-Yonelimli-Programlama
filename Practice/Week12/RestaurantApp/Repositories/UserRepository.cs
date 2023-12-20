@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using System.Security.Cryptography;
+using Entities;
 using Repositories.Interfaces;
 using Repositories.Services;
 
@@ -6,11 +7,11 @@ namespace Repositories;
 
 public class UserRepository : IRepository<User>
 {
-    private List<User> users;
+    private RepositoryDbContext dbContext;
 
-    public UserRepository(List<User> users)
+    public UserRepository(RepositoryDbContext dbContext)
     {
-        this.users = users;
+        this.dbContext = dbContext;
     }
 
     public void Delete(int id)
@@ -18,30 +19,38 @@ public class UserRepository : IRepository<User>
         var item = GetOne(id);
         if (item is null)
             return;
-        users.Remove(item);
+        dbContext.Users.Remove(item);
+        dbContext.SaveChanges();
     }
 
     public User GetOne(int id)
     {
-        return users.SingleOrDefault(user => user.Id.Equals(id));
+        return dbContext.Users.SingleOrDefault(user => user.Id.Equals(id));
     }
 
     public void Post(User item)
     {
         if (item is null)
             return;
-        var pass = item.Password.Encoder(item.Salt);
+
+        var salt = RandomNumberGenerator.GetInt32(10000);
+
+        var pass = item.Password.Encoder(salt);
         item.Password = pass;
-        users.Add(item);
+        item.Salt = salt;
+        dbContext.Users.Add(item);
+        dbContext.SaveChanges();
     }
 
     public User GetData(string email, string password)
     {
-        var user = users.SingleOrDefault(user => user.Email.Equals(email));
+        var user = dbContext.Users.SingleOrDefault(user => user.Email.Equals(email));
         if (user is null)
             return null;
 
-        if (user.Password.Equals(password.Encoder(user.Salt)))
+        var pass = password.Encoder(user.Salt);
+
+        if (user.Password.Equals(pass))
             return user;
         return null;
     }
