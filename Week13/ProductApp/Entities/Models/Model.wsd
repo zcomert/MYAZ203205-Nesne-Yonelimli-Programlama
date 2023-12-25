@@ -1,0 +1,39 @@
+@startuml Model
+title ProductApp
+
+class Product{
+    -productId:int
+    -productName:string
+    -price:decimal
+    -comments:ICollection<Comment>
+    --
+    +setProductId(value:int)
+    +setProductName(value:string)
+    +setPrice(value:decimal)
+    +setComments(value:ICollection<Comment>)
+    --
+    +getProductId():int
+    +getProductName():string
+    +getPrice():decimal
+    +getComments():ICollection<Comment>
+}
+
+class Comment{
+    -commentId:int
+    -productId:int
+    -text:string
+    -atCreatedDate:DateTime
+    --
+    +getCommentId(): int
+    +getProductId(): int
+    +getText():string
+    +getAtCreatedDate():DateTime
+    --
+    +setCommentId(value:int): void
+    +setProductId(value:int): void
+    +setText(value:string): void
+    +setAtCreatedDate(value:DateTime): void
+}
+
+Product "1" -> "0..n" Comment 
+@enduml

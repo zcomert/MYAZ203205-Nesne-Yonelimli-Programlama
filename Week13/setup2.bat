@@ -29,6 +29,8 @@ dotnet add Repositories package Microsoft.EntityFrameworkCore.Sqlite --version 7
 
 dotnet add ProductApi package Microsoft.EntityFrameworkCore.Design --version 7.0.0
 
+code .
+
 
 
 
