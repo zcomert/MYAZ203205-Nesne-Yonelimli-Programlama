@@ -1,0 +1,44 @@
+@startuml EmployeeModel
+title Models
+
+class Employee{
+    -id:int
+    -firstName:string
+    -lastName:string
+    -salary:decimal
+    -companyId:int
+    --
+    Employee()
+    --
+    +getId():int
+    +getFirstName():string
+    +getLastName():string
+    +getSalary():decimal
+    +getCompanyId():int
+    --
+    +setId(value:id):void
+    +setFirstName(value:string):void
+    +setLastName(value:string):void
+    +setSalary(value:decimal):void
+    +setCompanyId(value:int):void
+}
+class Company {
+    -companyId: int
+    -companyName: string
+    -website: string
+    --
+    Company()
+    --
+    +getCompanyId(): int
+    +getCompanyName(): string
+    +getWebsite(): string
+    --
+    +setCompanyId(value: int): void
+    +setCompanyName(value: string): void
+    +setWebsite(value: string): void
+}
+
+Employee "n" o-r-> "1" Company : "one to many"
+' hide members
+
+@enduml
