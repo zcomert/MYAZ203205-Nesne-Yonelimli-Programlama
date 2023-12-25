@@ -13,7 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
     options
-    .UseSqlite(builder.Configuration.GetConnectionString("sqliteconnection"));
+    .UseSqlite(builder.Configuration.GetConnectionString("sqliteconnection"),
+    prj => prj.MigrationsAssembly("EmployeeWebApi"));
 });
 
 var app = builder.Build();

@@ -1,0 +1,12 @@
+C:\myaz203205\Week13\EmployeeApp\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\myaz203205\Week13\EmployeeApp\Entities\bin\Debug\net7.0\Entities.dll
+C:\myaz203205\Week13\EmployeeApp\Entities\bin\Debug\net7.0\Entities.pdb
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.dll
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\Entities.pdb
+C:\myaz203205\Week13\EmployeeApp\Entities\obj\Debug\net7.0\ref\Entities.dll
