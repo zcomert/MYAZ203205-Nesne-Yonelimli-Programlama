@@ -9,6 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<ProductRepository>();
+builder.Services.AddScoped<CommentRepository>();
+
 // REGISTER
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {

@@ -1314,19 +1314,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UZEM\\.nuget\\packages\\": {}
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\myaz203205\\Week13\\ProductApp\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Week13\\ProductApp\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\myaz203205\\Week13\\ProductApp\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\UZEM\\.nuget\\packages\\",
-      "outputPath": "C:\\myaz203205\\Week13\\ProductApp\\Repositories\\obj\\",
+      "projectPath": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Week13\\ProductApp\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+      "outputPath": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Week13\\ProductApp\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UZEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1340,8 +1340,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\myaz203205\\Week13\\ProductApp\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\myaz203205\\Week13\\ProductApp\\Entities\\Entities.csproj"
+            "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Week13\\ProductApp\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\MYAZ203205-Nesne-Yonelimli-Programlama\\Week13\\ProductApp\\Entities\\Entities.csproj"
             }
           }
         }
@@ -1387,7 +1387,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
