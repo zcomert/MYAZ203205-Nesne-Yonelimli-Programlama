@@ -1,0 +1,11 @@
+@startuml model
+title "model"
+class Meeting{
+
+}
+class Person{
+
+}
+Person - Meeting 
+hide empty members
+@enduml
