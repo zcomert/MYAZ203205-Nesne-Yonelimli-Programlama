@@ -1,0 +1,17 @@
+@startuml model
+title model
+class Phone
+{
+    +company : Company
+    +companyId : int
+}
+
+class Company
+{
+    +phones : ICollection<Phone>
+}
+
+Phone "*" -- "1" Company
+hide empty members 
+
+@enduml
