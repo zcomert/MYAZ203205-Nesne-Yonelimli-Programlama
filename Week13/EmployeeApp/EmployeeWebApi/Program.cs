@@ -10,6 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<EmployeeRepository>();
+
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
     options

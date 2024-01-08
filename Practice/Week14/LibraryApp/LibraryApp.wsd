@@ -1,0 +1,42 @@
+@startuml LibraryApp
+title LibraryApp
+
+class Authors {
+    + Id: int
+    + FirstName: string
+    + MiddleName: string?
+    + LastName: string
+    + Books: ICollection<Books>
+}
+
+class Books {
+    + Id: int
+    + Title: string
+    + PublishYear: DateTime
+    + Quantity: int
+    + Authors: ICollection<Authors>
+}
+
+class BookRepository {
+    + context: RepositoryContext
+    + BookInfo(id: int): Books
+    + AddBook(book: Books): void
+    + Borrow(id: int): void
+    + Return(id: int): void
+}
+
+class AuthorRepository {
+    + context: RepositoryContext
+    + AuthorInfo(id: int): Authors
+    + AddAuthor(author: Authors): void
+}
+
+Authors *-* Books
+
+BookRepository -down- Books
+AuthorRepository -down- Authors
+
+hide empty fields
+hide empty methods
+
+@enduml
