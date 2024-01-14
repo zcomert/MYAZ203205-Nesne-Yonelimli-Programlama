@@ -7,5 +7,5 @@ public class Authors
     // Nullable
     public string? MiddleName { get; set; }
     public string LastName { get; set; }
-    public ICollection<Books> Books { get; set; }
+    public ICollection<AuthorsBooks>? AuthorsBooks { get; set; }
 }

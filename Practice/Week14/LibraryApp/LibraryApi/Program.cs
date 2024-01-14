@@ -1,5 +1,6 @@
 using LibraryApi.Services;
 using Microsoft.EntityFrameworkCore;
+using Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.SetConnectionString(builder);
+
+builder.Services.AddScoped<AuthorRepository>();
+builder.Services.AddScoped<BookRepository>();
 
 var app = builder.Build();
 

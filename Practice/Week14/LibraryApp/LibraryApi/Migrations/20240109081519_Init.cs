@@ -45,30 +45,37 @@ namespace LibraryApi.Migrations
                 name: "AuthorsBooks",
                 columns: table => new
                 {
-                    AuthorsId = table.Column<int>(type: "INTEGER", nullable: false),
-                    BooksId = table.Column<int>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    AuthorId = table.Column<int>(type: "INTEGER", nullable: false),
+                    BookId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AuthorsBooks", x => new { x.AuthorsId, x.BooksId });
+                    table.PrimaryKey("PK_AuthorsBooks", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_AuthorsBooks_Authors_AuthorsId",
-                        column: x => x.AuthorsId,
+                        name: "FK_AuthorsBooks_Authors_AuthorId",
+                        column: x => x.AuthorId,
                         principalTable: "Authors",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_AuthorsBooks_Books_BooksId",
-                        column: x => x.BooksId,
+                        name: "FK_AuthorsBooks_Books_BookId",
+                        column: x => x.BookId,
                         principalTable: "Books",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_AuthorsBooks_BooksId",
+                name: "IX_AuthorsBooks_AuthorId",
                 table: "AuthorsBooks",
-                column: "BooksId");
+                column: "AuthorId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AuthorsBooks_BookId",
+                table: "AuthorsBooks",
+                column: "BookId");
         }
 
         /// <inheritdoc />

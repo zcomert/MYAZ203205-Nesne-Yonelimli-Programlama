@@ -7,5 +7,5 @@ public class Books
     public DateTime PublishDate { get; set; }
     public int Quantity { get; set; }
 
-    public ICollection<Authors> Authors { get; set; }
+    public ICollection<AuthorsBooks>? AuthorsBooks { get; set; }
 }

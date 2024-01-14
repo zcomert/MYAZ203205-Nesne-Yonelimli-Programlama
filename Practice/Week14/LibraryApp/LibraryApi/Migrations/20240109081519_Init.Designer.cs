@@ -11,7 +11,7 @@ using Repositories;
 namespace LibraryApi.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240102105719_Init")]
+    [Migration("20240109081519_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -19,21 +19,6 @@ namespace LibraryApi.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.0");
-
-            modelBuilder.Entity("AuthorsBooks", b =>
-                {
-                    b.Property<int>("AuthorsId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("BooksId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("AuthorsId", "BooksId");
-
-                    b.HasIndex("BooksId");
-
-                    b.ToTable("AuthorsBooks");
-                });
 
             modelBuilder.Entity("Entities.Authors", b =>
                 {
@@ -57,6 +42,27 @@ namespace LibraryApi.Migrations
                     b.ToTable("Authors");
                 });
 
+            modelBuilder.Entity("Entities.AuthorsBooks", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("AuthorsBooks");
+                });
+
             modelBuilder.Entity("Entities.Books", b =>
                 {
                     b.Property<int>("Id")
@@ -78,19 +84,33 @@ namespace LibraryApi.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("AuthorsBooks", b =>
+            modelBuilder.Entity("Entities.AuthorsBooks", b =>
                 {
-                    b.HasOne("Entities.Authors", null)
-                        .WithMany()
-                        .HasForeignKey("AuthorsId")
+                    b.HasOne("Entities.Authors", "Author")
+                        .WithMany("AuthorsBooks")
+                        .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Entities.Books", null)
-                        .WithMany()
-                        .HasForeignKey("BooksId")
+                    b.HasOne("Entities.Books", "Book")
+                        .WithMany("AuthorsBooks")
+                        .HasForeignKey("BookId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Author");
+
+                    b.Navigation("Book");
+                });
+
+            modelBuilder.Entity("Entities.Authors", b =>
+                {
+                    b.Navigation("AuthorsBooks");
+                });
+
+            modelBuilder.Entity("Entities.Books", b =>
+                {
+                    b.Navigation("AuthorsBooks");
                 });
 #pragma warning restore 612, 618
         }

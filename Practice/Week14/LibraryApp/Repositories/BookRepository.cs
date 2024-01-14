@@ -16,7 +16,8 @@ public class BookRepository
     {
         var book = context
         .Books
-        .Include(a => a.Authors)
+        .Include(a => a.AuthorsBooks)
+        .ThenInclude(ab => ab.Author)
         .SingleOrDefault(a => a.Id.Equals(id));
 
         if (book is null)
@@ -42,7 +43,8 @@ public class BookRepository
         context.SaveChanges();
     }
 
-    public void Return(int id){
+    public void Return(int id)
+    {
         var book = BookInfo(id);
 
         book.Quantity += 1;

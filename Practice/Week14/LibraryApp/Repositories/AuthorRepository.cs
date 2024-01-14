@@ -16,7 +16,8 @@ public class AuthorRepository
     {
         var author = context
         .Authors
-        .Include(a => a.Books)
+        .Include(a => a.AuthorsBooks)
+        .ThenInclude(ab => ab.Book)
         .SingleOrDefault(a => a.Id.Equals(id));
 
         if (author is null)

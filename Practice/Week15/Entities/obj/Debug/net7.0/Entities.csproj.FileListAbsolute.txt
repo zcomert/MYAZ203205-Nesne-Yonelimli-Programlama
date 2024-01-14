@@ -1,0 +1,11 @@
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\bin\Debug\net7.0\Entities.dll
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\bin\Debug\net7.0\Entities.pdb
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\Entities.dll
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\Entities.pdb
+C:\MYAZ203205-Nesne-Yonelimli-Programlama\Practice\Week15\Entities\obj\Debug\net7.0\ref\Entities.dll
